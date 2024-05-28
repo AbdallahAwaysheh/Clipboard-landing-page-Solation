@@ -23,7 +23,7 @@ header{
     text-align: center;
     gap: 30px;
     padding: 80px;
-    background: url(./images/bg-header-desktop.png) no-repeat;
+    background: url(images/bg-header-desktop.png) no-repeat;
     background-size: 100%;
 }
 .icon img{
