@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Poppins:wght@100;400&display=swap');
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree';
+    font-size: 18px;
+}
+/* header-start */
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 80px;
+    background: url(/images/bg-header-desktop.png) no-repeat;
+    background-size: 100%;
+}
+.icon img{
+    width: 75px;
+    height: 75px;
+}
+.header-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.5;
+}
+h1{
+    font-weight: 600;
+}
+h2{
+    font-weight: 600;
+}
+p{
+    font-weight: 200;
+    line-height: 1.5;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 100%;
+}
+.buttons a:first-child{
+    background-color: var(--Strong-Cyan);
+    filter: drop-shadow(0 10px 10px hsla(171, 66%, 44%,0.3));
+}
+.buttons a:last-child{
+    background-color: var(--Light-Blue);
+    filter: drop-shadow(0 10px 10px hsla(210, 10%, 33%,0.3));
+}
+/* header-end */
+/* section2-start */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-header{
+    text-align: center;
+    margin: 50px 0;
+    max-width: 600px;
+}
+.section-header h2{
+    margin: 30px 0;
+}
+.imageAndcontent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.image-container{
+    margin-left: -170px;
+}
+.flex-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    max-width: 400px;
+}
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.image-tablet{
+    display: flex;
+    justify-content: center;
+}
+/* -------------------------------------------------------- */
+.icons-supercharge{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.icons-supercharge-1{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.small-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+}
+/* ________________________________________ */
+.footer-icon img{
+    max-width: 40px;
+}
+footer{
+    padding: 0 80px;
+    margin-top: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.side-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.links-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.links-grid a{
+    text-decoration: none;
+    color: black;
+}
+.sotial-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
